@@ -1,3 +1,29 @@
+
+/* Note: Try svh if dynamic doesn't work. Add height: 100vh; above the dynamic height to help on unsupported browsers */
 .hero {
     height: 100dvh;
+}
+.path {
+    stroke-dasharray: 1400;
+    stroke-dashoffset: 1500;
+    animation: dash 2s linear forwards;
+}
+.orange {
+    color: orange;
+}
+.orange-btn {
+    color: orange;
+    border-width: 4px;
+    border-color: orange;
+}
+.white-btn {
+    color: white;
+    border-width: 4px;
+    border-color: white;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
 }
