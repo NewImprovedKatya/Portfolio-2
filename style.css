@@ -1,7 +1,7 @@
 
 /* Note: Try svh if dynamic doesn't work. Add height: 100vh; above the dynamic height to help on unsupported browsers */
 .hero {
-    height: 100dvh;
+    height: 70dvh;
 }
 .path {
     stroke-dasharray: 1400;
