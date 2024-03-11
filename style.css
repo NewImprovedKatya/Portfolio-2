@@ -3,6 +3,9 @@
 .hero {
     height: 70dvh;
 }
+.sidekick {
+    min-height: 50dvh;
+}
 .path {
     stroke-dasharray: 1400;
     stroke-dashoffset: 1500;
